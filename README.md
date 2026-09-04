@@ -1,6 +1,6 @@
-# My Second Teacher automation
+# Understanding Nepal Course Automation for My Second Teacher (MST)
 
-This is a local, visible-browser Playwright runner for the **Understanding Nepal: Society, History, and Governance** interactive lessons. It lets each video play normally, detects in-video and end-of-lesson quizzes, extracts Nepali question text and choices, captures visual questions, handles results, and advances through the subject catalogue.
+This is a local, visible-browser Playwright runner for the **Understanding Nepal: Society, History, and Governance** course workflow on My Second Teacher (MST). It lets each video play normally, detects in-video and end-of-lesson quizzes, extracts Nepali question text and choices, captures visual questions, handles results, and advances through the subject catalogue.
 
 The project makes **no OpenAI API calls**. It has no API key, `.env`, OpenAI SDK, or separately billed API dependency. Automatic quiz reasoning uses the locally installed `codex exec` command authenticated through your existing ChatGPT/Codex sign-in. Accepted answers are cached locally so identical questions can be reused. A separately configured compatible local CLI can also be used through the opt-in `generic-cli` provider.
 
