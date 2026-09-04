@@ -1,0 +1,39 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Local configuration and provider credentials
+.env
+.env.*
+!.env.example
+*.auth
+*.session
+auth-state/
+storage-state*.json
+
+# Browser profiles, account data, and course runtime artifacts
+mst-profile/
+**/mst-profile/
+screenshots/
+logs/
+diagnostics/
+data/
+playwright-report/
+test-results/
+blob-report/
+
+# Temporary files and local caches
+.tmp/
+temp/
+.cache/
+*.log
+*.har
+
+# Editor and operating-system files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.DS_Store
+Thumbs.db
